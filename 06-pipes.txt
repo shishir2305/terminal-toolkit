@@ -1,0 +1,7 @@
+// Pipes
+
+01. | -> the pipe command passes one command's output to another command
+02. ps aux -> list all the processes
+03. ps aux | grep node -> lists all the processes then finds all the processes of node
+04. cat access.log | grep "500" -> fetches the content of access.log file and then performs a search to find "500"
+06. 

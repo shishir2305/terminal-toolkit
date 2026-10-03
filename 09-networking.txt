@@ -1,0 +1,13 @@
+// Networking
+
+01. curl https://example.com -> make http request
+02. curl -I https://example.com -> check http headers
+03. curl -v https://example.com -> debug an http request by getting the details of what is happening during the http request.
+04. dig google.com -> dig lets you inspect that process
+05. nslookup google.com -> DNS lookup
+06. ping google.com -> check connectivity
+07. lsof -i :8080 -> finds what's using a port
+08. traceroute google.com -> It shows the network hops between your machine and the destination.
+09. hostname -> get your machine's hostname
+10. ipconfig/ifconfig -> show network interfaces
+11. ssh user@server-ip ->  

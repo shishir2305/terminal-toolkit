@@ -1,0 +1,8 @@
+// Searching Files and Code
+
+1. find -> find a file in a project (find . -name "package.json", where . means search from the current directory)
+2. find . -name "*files.txt" -> find all files with filex.txt in their name
+3. find . -type d -name "controllers" -> find directories
+4. grep "TODO" app.js -> search text inside files
+5. grep -R "getUserById" . -> recursively searches through files
+6. grep -Ri "mongodb" . -> search case insensitively

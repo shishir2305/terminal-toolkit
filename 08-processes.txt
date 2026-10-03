@@ -1,0 +1,7 @@
+// processes
+
+01. ps aux -> list processes
+02. ps aux | grep node -> find node processes
+03. kill PID -> terminate a process
+04. kill -9 PID -> force terminate a process
+05. lsof -i :3000 -> find process using a project

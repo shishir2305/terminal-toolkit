@@ -1,0 +1,6 @@
+// Command chaining
+
+01. command1 ; command2 -> run sequentially
+02. command1 && command2 -> only run second if first one succeeds
+03. command1 || command2 -> run second if first fails
+04. echo "Current directory: $(pwd)" -> run one command inside another

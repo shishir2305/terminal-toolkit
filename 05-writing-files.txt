@@ -1,0 +1,6 @@
+// Writing/Redirecting files 
+
+1. echo -> print something in the terminal (echo test)
+2. echo > -> write something to a file (echo "hello" > file.txt), but existing content is replaced
+3. echo >> -> append something to a file (echo "world" >> file.txt)
+4. < use file as an input (sort < file.txt)

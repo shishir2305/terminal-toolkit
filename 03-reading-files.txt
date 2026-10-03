@@ -1,0 +1,9 @@
+// Reading Files
+
+1. cat -> print entire file (cat package.json)
+2. less -> read large file (less server.log)
+3. more -> paginated reading (more server.log)
+4. head -> read from the first lines of a file (head -20 file.txt)
+5. tail -> read from the last lines of a file (tail -20 file.txt)
+6. tail -f -> follow live logs (tail -f server.log) (extremely useful when debugging backend logs)
+7. wc -> count lines/words (wc -l file.txt)

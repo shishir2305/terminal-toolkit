@@ -1,0 +1,11 @@
+// Navigation and Directories
+
+1. pwd -> show current directory
+2. ls -> list files in that directory
+3. ls -la -> list all files + details
+4. cd -> change directory (cd Desktop)
+5. cd .. -> Comeback one level
+6. cd ~ -> go to home directory
+7. mkdir -> create directory (mkdir backend)
+8. mkdir -p -> create nested directories (projects/backend/src)
+9. rmdir -> remove empty directory

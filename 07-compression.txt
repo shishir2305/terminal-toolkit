@@ -1,0 +1,14 @@
+// ZIP/ TAR/ COMPRESSION
+
+01. tar -cf project.tar project/ -> c is create and f is filename, this command combines the entire project/ directory into one file
+02. tar -czf project.tar.gz project/ -> create, gzip, filename (most used in linux to package server files, transferring logs, creating backup)
+03. tar -xzf project.tar.gz -> extract files
+05. gzip database.sql -> compress a file
+06. gunzip database.sql.gz -> decompress a file
+07. zip -r project.zip project/ -> archive + COMPRESSION
+08. unzip project.zip -> unzip everything
+
+// Tar is used to create a container out of a directory
+// Tar does not compress
+// Gzip does the compression but cannot compress an entire directory, so it is used in combination with tar
+// zip is used to mostly share files since it is supported in all os

@@ -1,0 +1,10 @@
+// Files - create, copy, move and delete
+
+1. touch -> create file (touch file.js)
+2. cp -> copy file (cp app.js backup.js)
+3. mv -> move/rename a file (mv old.js new.js)
+4. rm -> delete file (rm app.js)
+5. rm -r -> delete directory (rm -r build/)
+6. rm -rf -> force delete recursively (rm -rf node_modules)
+7. file -> identify file type (file app.js)
+8. stat -> file metadata (stat app.js)
