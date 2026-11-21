@@ -1,0 +1,65 @@
+# Vim Modes
+
+01. Esc -> Switch to Normal mode
+02. i -> Enter Insert mode before cursor (Normal)
+03. a -> Enter Insert mode after cursor (Normal)
+04. o -> Create new line below (Normal)
+05. v -> Enter Visual mode (Normal)
+
+# Navigation
+
+01. h / j / k / l -> Left / Down / Up / Right (Normal)
+02. w -> Move to next word (Normal)
+03. b -> Move to previous word (Normal)
+04. 0 -> Beginning of line (Normal)
+05. $ -> End of line (Normal)
+06. gg -> Beginning of file (Normal)
+07. G -> End of file (Normal)
+08. % -> Jump between matching brackets (Normal)
+
+# Editing
+
+01. x -> Delete character (Normal)
+02. dd -> Delete entire line (Normal)
+03. yy -> Copy entire line (Normal)
+04. p -> Paste after cursor (Normal)
+05. u -> Undo (Normal)
+06. Ctrl + r -> Redo (Normal)
+07. . -> Repeat last change (Normal)
+08. dw -> Delete word (Normal)
+09. cw -> Change word (Normal)
+10. ciw -> Change inside current word (Normal)
+11. ci" -> Change text inside quotes (Normal)
+12. ci{ -> Change content inside curly braces (Normal)
+
+# Search and Replace
+
+01. /word -> Search forward (Normal)
+02. n -> Next search result (Normal)
+03. N -> Previous search result (Normal)
+04. :%s/old/new/g -> Replace all occurrences (Command-line)
+
+# Visual Mode
+
+01. v -> Select characters (Normal)
+02. V -> Select entire lines (Normal)
+03. y -> Copy selection (Visual)
+04. d -> Delete selection (Visual)
+05. > -> Indent selection (Visual)
+06. < -> Dedent selection (Visual)
+
+# Save and Quit
+
+01. :w -> Save file (Command-line)
+02. :q -> Quit Vim (Command-line)
+03. :wq -> Save and quit (Command-line)
+04. :q! -> Quit without saving (Command-line)
+
+# Important Concepts
+
+01. Modes -> Normal (navigation), Insert (typing), Visual (selection), Command-line (commands).
+02. Operators -> d (delete), c (change), y (copy).
+03. Motions -> w, b, $, gg specify where an operation happens.
+04. Text Objects -> iw (word), i" (inside quotes), i{ (inside braces).
+05. Buffers -> Files loaded in Vim's memory.
+06. Windows -> Views used to display buffers.
