@@ -7,3 +7,14 @@
 5. tail -> read from the last lines of a file (tail -20 file.txt)
 6. tail -f -> follow live logs (tail -f server.log) (extremely useful when debugging backend logs)
 7. wc -> count lines/words (wc -l file.txt)
+
+Important Concepts
+| Concept | Meaning |
+|---|---|
+| | | Pass output to another command |
+| > | Redirect output and overwrite file |
+| >> | Append output to file |
+| < | Take input from a file |
+| && | Run next command only if previous succeeds |
+| || | Run next command only if previous fails |
+| ; | Run commands sequentially regardless of success |
